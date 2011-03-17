@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050688B31323D0FB004814CE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050688B21323D0FB004814CE /* Cocoa.framework */; };
+		050688BD1323D0FB004814CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 050688BB1323D0FB004814CE /* InfoPlist.strings */; };
+		050688C01323D0FB004814CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 050688BF1323D0FB004814CE /* main.m */; };
+		050688C61323D0FB004814CE /* ApplicationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 050688C51323D0FB004814CE /* ApplicationDelegate.m */; };
+		050688C91323D0FC004814CE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 050688C71323D0FC004814CE /* MainMenu.xib */; };
+		050688FD1323D448004814CE /* Application.icns in Resources */ = {isa = PBXBuildFile; fileRef = 050688FC1323D448004814CE /* Application.icns */; };
+		050689201323D529004814CE /* 32Bits.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0506891E1323D529004814CE /* 32Bits.icns */; };
+		050689211323D529004814CE /* 64Bits.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0506891F1323D529004814CE /* 64Bits.icns */; };
+		050689231323D68B004814CE /* ResultWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050689221323D68B004814CE /* ResultWindowController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050688AE1323D0FB004814CE /* Processor 64 Bits Compatibility Check.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Processor 64 Bits Compatibility Check.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		050688B21323D0FB004814CE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		050688B51323D0FB004814CE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		050688B61323D0FB004814CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		050688B71323D0FB004814CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		050688BA1323D0FB004814CE /* Processor_64_Bits_Compatibility_Check-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Processor_64_Bits_Compatibility_Check-Info.plist"; sourceTree = "<group>"; };
+		050688BC1323D0FB004814CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		050688BE1323D0FB004814CE /* Processor_64_Bits_Compatibility_Check-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Processor_64_Bits_Compatibility_Check-Prefix.pch"; sourceTree = "<group>"; };
+		050688BF1323D0FB004814CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		050688C41323D0FB004814CE /* ApplicationDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationDelegate.h; sourceTree = "<group>"; };
+		050688C51323D0FB004814CE /* ApplicationDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplicationDelegate.m; sourceTree = "<group>"; };
+		050688C81323D0FC004814CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		050688FC1323D448004814CE /* Application.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Application.icns; sourceTree = "<group>"; };
+		0506891E1323D529004814CE /* 32Bits.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = 32Bits.icns; path = Resources/32Bits.icns; sourceTree = "<group>"; };
+		0506891F1323D529004814CE /* 64Bits.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = 64Bits.icns; path = Resources/64Bits.icns; sourceTree = "<group>"; };
+		050689221323D68B004814CE /* ResultWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultWindowController.m; sourceTree = "<group>"; };
+		050689241323D694004814CE /* ResultWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultWindowController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		050688AB1323D0FB004814CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050688B31323D0FB004814CE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050688A31323D0FB004814CE = {
+			isa = PBXGroup;
+			children = (
+				050688FC1323D448004814CE /* Application.icns */,
+				050688B81323D0FB004814CE /* Processor 64 Bits Compatibility Check */,
+				050688B11323D0FB004814CE /* Frameworks */,
+				050688AF1323D0FB004814CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		050688AF1323D0FB004814CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				050688AE1323D0FB004814CE /* Processor 64 Bits Compatibility Check.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		050688B11323D0FB004814CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050688B21323D0FB004814CE /* Cocoa.framework */,
+				050688B41323D0FB004814CE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		050688B41323D0FB004814CE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050688B51323D0FB004814CE /* AppKit.framework */,
+				050688B61323D0FB004814CE /* CoreData.framework */,
+				050688B71323D0FB004814CE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		050688B81323D0FB004814CE /* Processor 64 Bits Compatibility Check */ = {
+			isa = PBXGroup;
+			children = (
+				050688C41323D0FB004814CE /* ApplicationDelegate.h */,
+				050688C51323D0FB004814CE /* ApplicationDelegate.m */,
+				050689241323D694004814CE /* ResultWindowController.h */,
+				050689221323D68B004814CE /* ResultWindowController.m */,
+				050688C71323D0FC004814CE /* MainMenu.xib */,
+				050688B91323D0FB004814CE /* Supporting Files */,
+			);
+			path = "Processor 64 Bits Compatibility Check";
+			sourceTree = "<group>";
+		};
+		050688B91323D0FB004814CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0506891E1323D529004814CE /* 32Bits.icns */,
+				0506891F1323D529004814CE /* 64Bits.icns */,
+				050688BA1323D0FB004814CE /* Processor_64_Bits_Compatibility_Check-Info.plist */,
+				050688BB1323D0FB004814CE /* InfoPlist.strings */,
+				050688BE1323D0FB004814CE /* Processor_64_Bits_Compatibility_Check-Prefix.pch */,
+				050688BF1323D0FB004814CE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		050688AD1323D0FB004814CE /* Processor 64 Bits Compatibility Check */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 050688CC1323D0FC004814CE /* Build configuration list for PBXNativeTarget "Processor 64 Bits Compatibility Check" */;
+			buildPhases = (
+				050688AA1323D0FB004814CE /* Sources */,
+				050688AB1323D0FB004814CE /* Frameworks */,
+				050688AC1323D0FB004814CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Processor 64 Bits Compatibility Check";
+			productName = "Processor 64 Bits Compatibility Check";
+			productReference = 050688AE1323D0FB004814CE /* Processor 64 Bits Compatibility Check.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		050688A51323D0FB004814CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = eosgarden;
+			};
+			buildConfigurationList = 050688A81323D0FB004814CE /* Build configuration list for PBXProject "Processor 64 Bits Compatibility Check" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 050688A31323D0FB004814CE;
+			productRefGroup = 050688AF1323D0FB004814CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				050688AD1323D0FB004814CE /* Processor 64 Bits Compatibility Check */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		050688AC1323D0FB004814CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050688BD1323D0FB004814CE /* InfoPlist.strings in Resources */,
+				050688C91323D0FC004814CE /* MainMenu.xib in Resources */,
+				050688FD1323D448004814CE /* Application.icns in Resources */,
+				050689201323D529004814CE /* 32Bits.icns in Resources */,
+				050689211323D529004814CE /* 64Bits.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		050688AA1323D0FB004814CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050688C01323D0FB004814CE /* main.m in Sources */,
+				050688C61323D0FB004814CE /* ApplicationDelegate.m in Sources */,
+				050689231323D68B004814CE /* ResultWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		050688BB1323D0FB004814CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050688BC1323D0FB004814CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		050688C71323D0FC004814CE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				050688C81323D0FC004814CE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		050688CA1323D0FC004814CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Werror",
+					"-Wbad-function-cast",
+					"-Wmissing-declarations",
+					"-Wmissing-prototypes",
+					"-Wnested-externs",
+					"-Wold-style-definition",
+					"-Wstrict-prototypes",
+					"-Wdeclaration-after-statement",
+				);
+			};
+			name = Debug;
+		};
+		050688CB1323D0FC004814CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_MULTIPLE_DEFINITION_TYPES_FOR_SELECTOR = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_PEDANTIC = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_STRICT_SELECTOR_MATCH = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_PARAMETER = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wall",
+					"-Wextra",
+					"-Werror",
+					"-Wbad-function-cast",
+					"-Wmissing-declarations",
+					"-Wmissing-prototypes",
+					"-Wnested-externs",
+					"-Wold-style-definition",
+					"-Wstrict-prototypes",
+					"-Wdeclaration-after-statement",
+				);
+			};
+			name = Release;
+		};
+		050688CD1323D0FC004814CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Processor 64 Bits Compatibility Check/Processor_64_Bits_Compatibility_Check-Prefix.pch";
+				INFOPLIST_FILE = "Processor 64 Bits Compatibility Check/Processor_64_Bits_Compatibility_Check-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		050688CE1323D0FC004814CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = /;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Processor 64 Bits Compatibility Check/Processor_64_Bits_Compatibility_Check-Prefix.pch";
+				INFOPLIST_FILE = "Processor 64 Bits Compatibility Check/Processor_64_Bits_Compatibility_Check-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		050688A81323D0FB004814CE /* Build configuration list for PBXProject "Processor 64 Bits Compatibility Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050688CA1323D0FC004814CE /* Debug */,
+				050688CB1323D0FC004814CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		050688CC1323D0FC004814CE /* Build configuration list for PBXNativeTarget "Processor 64 Bits Compatibility Check" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				050688CD1323D0FC004814CE /* Debug */,
+				050688CE1323D0FC004814CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 050688A51323D0FB004814CE /* Project object */;
+}
