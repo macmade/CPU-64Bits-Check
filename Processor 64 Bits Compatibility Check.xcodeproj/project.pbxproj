@@ -139,6 +139,7 @@
 		050688A51323D0FB004814CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = eosgarden;
 			};
 			buildConfigurationList = 050688A81323D0FB004814CE /* Build configuration list for PBXProject "Processor 64 Bits Compatibility Check" */;
