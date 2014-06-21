@@ -1,0 +1,3 @@
+language: objective-c
+xcode_project: Processor 64 Bits Compatibility Check.xcodeproj
+xcode_scheme: Processor 64 Bits Compatibility Check
